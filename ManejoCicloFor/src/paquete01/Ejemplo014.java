@@ -9,7 +9,7 @@ package paquete01;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Ejemplo014 {
 
     /**
      * @param args the command line arguments
@@ -18,13 +18,13 @@ public class Ejemplo01 {
         //Se usa la cadena para guardar los valores progresivamente sin necesidad 
         //de estar imprimiendo en cada interaccion 
 
-        String cadena = "";
+        int cadena = 0;
         for (int i = 1; i <= 10; i++) {
-            cadena = String.format("%s%d", cadena, i);
+            cadena = cadena + i;
         }
 
         for (int i = 1; i < 11; i++) {
-            cadena = String.format("%s%d", cadena, i);
+            cadena = cadena + i;
         }
         System.out.printf("%s\n", cadena);
 

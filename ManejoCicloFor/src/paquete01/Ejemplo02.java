@@ -15,8 +15,8 @@ public class Ejemplo02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        for (int i = 1; i <= 10; i+=2) {
+        //Codigo que presenta los valores de 2 en 2 
+        for (int i = 20; i >= 0; i-=2) {
             System.out.printf("%d\n", i);
         }
         
