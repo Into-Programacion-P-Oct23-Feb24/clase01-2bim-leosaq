@@ -19,9 +19,11 @@ public class Ejemplo07 {
                     mensajeFinal, i);
             for (int contador = 1; contador <= 12; contador++) {
                 operacion = i * contador;
-                // System.out.printf("%d x %d = %d\n", i, contador, operacion);
+                 //System.out.printf("%d x %d = %d\n", i, contador, operacion);
+                 mensajeFinal= String.format("%s%d x %d = %d\n",mensajeFinal, i, contador, operacion);
             }
-            // System.out.println("\n");
+             //System.out.println("\n");
+             mensajeFinal=String.format("%s\n",mensajeFinal);
         } // termina for 01
         
         System.out.printf("%s\n", mensajeFinal);
