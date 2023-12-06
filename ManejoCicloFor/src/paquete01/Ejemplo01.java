@@ -16,13 +16,15 @@ public class Ejemplo01 {
      */
     public static void main(String[] args) {
 
+        String cadena = "";
         for (int i = 1; i <= 10; i++) {
-            System.out.printf("%d\n", i);
+            cadena = String.format("%s%d", cadena, i);
         }
-        
+
         for (int i = 1; i < 11; i++) {
-            System.out.printf("%d\n", i);
+            cadena = String.format("%s%d", cadena, i);
         }
+        System.out.printf("%s\n", cadena);
 
     }
 
